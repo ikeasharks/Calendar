@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="App.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <title>telegram-App</title>
+  </head>
+  <body>
+    
+    <div id="root"></div>
+
+    <!-- чек -->
+    <!-- <div class="prise-list" style="display: none;"> -->
+    <div class="price-list" style="display: none;">
+      <div class="card_head">
+        <h2>Мы сохраним ваш заказ</h2>
+        <h3 class="time_header_2">Имя + id + id заказа </h5>
+      </div>
+      <div class="list-items"></div>
+    </div>
+
+    <!-- Места -->
+    <div class="cinema_view" style="display: none;">
+      <div class="card_head">
+        <h1>Выберете места</h1>
+        <h3 class="time_header">Дата + Время</h5>
+      </div>
+      <div class="cinema_place"></div>
+    </div>
+
+    <!-- Время -->
+    <div class="time_view" style="display: none;">
+      <div class="card_head">
+        <h1>Выберете время</h1>
+        <h3 class="time_header_1">Февраль 2024 </h5>
+      </div> 
+      <div class="avalibal_time"></div>
+    </div>
+
+    <!-- Календарь -->
+    <div class="calendar_view" style="display: none;">
+      <div class="card_head" >
+        <h1>Выберете день</h1>
+        <h3>Февраль 2024</h2>
+      </div>        
+      <div class="calendar"></div>
+    </div>
+
+    <!-- <script src="change_cards.js"></script> -->
+    <script src="index.js"></script>
+  </body>
+</html>
