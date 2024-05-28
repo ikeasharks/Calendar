@@ -417,7 +417,7 @@ function date_set_func(dates){
     price_list.querySelector('.list-items').innerHTML += `Сумма ${price}р`;
   }
 
-  //date_set_func(dates);
-  //make_calendar();
+  date_set_func(dates);
+  make_calendar();
 }
 
