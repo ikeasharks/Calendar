@@ -80,7 +80,7 @@ function save_data() {
       
     (async () => {
     try {
-      const dates = await fetchData();
+      dates = await fetchData();
       console.log(dates)
         date_set_func(dates);
         make_calendar();
@@ -417,7 +417,7 @@ function date_set_func(dates){
     price_list.querySelector('.list-items').innerHTML += `Сумма ${price}р`;
   }
 
-  date_set_func(dates);
-  make_calendar();
+  //date_set_func(dates);
+  //make_calendar();
 }
 
